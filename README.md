@@ -15,4 +15,4 @@
 ### OOP Class Diagram
 ![Class Diagram](q1/images/classDiagram.png)
 * [OOP PART 2: Class Attributes and Methods](q1/classAttributesMethods.md)
-* [OOP PART 3: Class Relationships: Association and Multiplicity](q1/classRelationships.md)
+* [OOP PART 3: Class Relationships -- Association and Multiplicity](q1/classRelationships.md)
