@@ -6,10 +6,12 @@
 
 ## Existing Class
 Class: Genre
+
 Description: This class represents the diversity of music, providing information on certain genres (such as name and average Bpm) and also manages global statistics and top hits under a certain genre.
 
 # New Related Class
 Class: GenreCatalog
+
 Description: This class represents a digtal directory that organizes, oversees, and manages a collection of various music genre objects.
 
 ## Association
