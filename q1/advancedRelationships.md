@@ -5,27 +5,27 @@
 
 ## Existing Classes and Limitations
 
-1. Existing Classes in System
-Class 1: Genre
-Class 2: GenreCatalog 
+**1. Existing Classes in System**
+- Class 1: Genre
+- Class 2: GenreCatalog 
 
-2. Problems/Limitations 
+**2. Problems/Limitations**
 The current design treats all music genres uniformly. However, specific types of genre require niche attributes. For example, electronic music explicitly depends on technical parameters like synthesizer type or certain other variations, which are irrelevant to classical or pop genres. Forcing these variables into the main Genre class makes it unnecessarily large and cluttered.
 
 ## Inheritance Relationship
-Parent: Genre
+**Parent:** Genre  
 
-Child: ElectronicGenre
+**Child**: ElectronicGenre  
 
-Explanation: An Electronic Genre functions as a specific music Genre (IS-A Relationship). It maintains traits that are also encapsulated by the latter class such as metrics and streaming updates, but adds electronic synthesis instrumentation variables.
+**Explanation:** An Electronic Genre functions as a specific music Genre (IS-A Relationship). It maintains traits that are also encapsulated by the latter class such as metrics and streaming updates, but adds electronic synthesis instrumentation variables.
 
 ## Inheritance UML
 ![Inheritance Diagram](images/inheritanceDiagram.png)
 
 ## Composition / Aggregation
-Relationship: Aggregation (Weak HAS-A)
+**Relationship:** Aggregation (Weak HAS-A)  
 
-Explanation: The GenreCatalog acts as a container for individual Genre records. If the catalog container is dropped or reset, the standard music genre instances are still retained or can still exist independently.
+**Explanation:** The GenreCatalog acts as a container for individual Genre records. If the catalog container is dropped or reset, the standard music genre instances are still retained or can still exist independently.
 
 ## Advanced UML Diagram
 ![Advanced UML](images/advancedClassDiagram.png)
